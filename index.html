@@ -1,179 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      #container {
-        width: 1200px;
-
-        /* border: solid; */
-        padding: 15px;
-        margin: 0px auto;
-      }
-      h1 {
-        color: black;
-        font-size: 40px;
-
-        text-align: center;
-        padding: 25px 0px;
-      }
-      #header {
-        background-color: grey;
-        height: 100px;
-        /* border-radius: 15px; */
-        margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        color: white;
-      }
-
-      #banner {
-        height: 680px;
-        margin-bottom: 15px;
-        background-color: lightblue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        color: white;
-      }
-      #circle-container {
-        /* border: solid red; */
-        width: 100%;
-        margin: 15px auto;
-      }
-      #circle-container::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-      .circle {
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        background-color: goldenrod;
-        float: left;
-        margin-left: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-      }
-      #grid-container {
-        /* border: solid green; */
-        width: 100%;
-        margin: 15px auto;
-      }
-      #grid-container::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-      .grid {
-        width: 20%;
-        height: 300px;
-        float: left;
-        margin-left: 50px;
-        background-color: orangered;
-        /* border-radius: 8px; */
-        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-      }
-
-      #footer {
-        background-color: plum;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        color: white;
-      }
-      #sec2-container {
-        /* border: solid red; */
-      }
-      #sec2-container::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-      #left-side {
-        width: 50%;
-        height: 550px;
-        background-color: gray;
-        float: left;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        color: white;
-      }
-
-      #right-side {
-        width: 48%;
-        height: 550px;
-        float: right;
-      }
-      .artical {
-        height: 31%;
-        margin-bottom: 20px;
-        background-color: chocolate;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <div id="header">Header</div>
-      <div id="banner">Banner</div>
-      <div id="circle-container">
-        <a name="team"></a>
-        <h1>Section-1</h1>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div id="sec2-container">
-        <a name="about"></a>
-        <h1>Section-2</h1>
-        <div id="left-side">Main Content</div>
-        <div id="right-side">
-          <div class="artical" id="p1">
-            <h2>Artical-1</h2>
-          </div>
-          <div class="artical" id="p2">
-            <h2>Artical-2</h2>
-          </div>
-          <div class="artical" id="p3">
-            <h2>Artical-3</h2>
-          </div>
-        </div>
-      </div>
-      <div id="grid-container">
-        <a name="Technologies"></a>
-        <h1>Setion-3</h1>
-        <div class="grid"></div>
-        <div class="grid"></div>
-        <div class="grid"></div>
-        <div class="grid"></div>
-      </div>
-      <div id="footer">Footer</div>
-    </div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-4</title>
+</head>
+<body style="background-color:lightyellow;">
+    <h2> <font color = "red" > Practical - 4: Create a website having list of all individual Practical page links. </font></h2>  
+    <h1>Output</h1>
+    <h2>Welcome to Live Practical Book</h2>
+    <P style="text-align: left;"> This is Live Practical Book for Live Subject Full Stack Development-1.
+        In this Book we are performing all the Practicals related to Front-end web development including topics from HTML,
+         CSS, JS and Bootstrap. This Book is Hosted on Github cloud platfrom.
+         You can veiw all the Practical from this Book.
+    </P>
+    <h1 style="color: green;">List of Practicals</h1>
+    <ol>
+        <li>Create a Web page including HTML basic skeleton using Offline HTML Editor and online Sandbox Enviroment. <a href="https://priyatomar04.github.io/Fullstack-practical/practical-1.html">Practical-1</a> </li>
+        <li>Create a Web page showing basic html structure using charcter Entities and span tag. <a href="https://priyatomar04.github.io/Fullstack-practical/practical-2.html">Practical-2</a></li>
+        <li>Live your First Web-Page on Github. <a href="https://priyatomar04.github.io/Fullstack-practical/practical-3.html">Practical-3</a></li>
+        <li>Create a website having list of all practical and their individual practical Page links.<a href= "https://priyatomar04.github.io/Fullstack-practical/index.html">Practical-4</a></li>
+        <li>Create a Web-Page showing the use of Image-Map in the Web Application.<a href="https://priyatomar04.github.io/Fullstack-practical/practical-5.html">Practical-5</a></li>
+        <li>Create a Card Layout using CSS layout properties.<a href="https://priyatomar04.github.io/Fullstack-practical/practical-6.html">Practical-6</a></li>
+        <li>Create a Web Page Layout using div tags.<a href="https://priyatomar04.github.io/Fullstack-practical/practical-7.html">Practical-7</li>
+    </ol>
+</body>
 </html>
